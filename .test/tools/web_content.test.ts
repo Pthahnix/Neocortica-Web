@@ -2,7 +2,6 @@ import { describe, it, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { unlinkSync } from "fs";
 import { resolve } from "path";
-import "dotenv/config";
 import { webContent } from "../../src/tools/web_content.js";
 import { saveMarkdown } from "../../src/utils/cache.js";
 

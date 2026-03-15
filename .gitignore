@@ -1,6 +1,5 @@
 node_modules/
 dist/
-.env
 .cache/
 .mcp.json
 CLAUDE.md

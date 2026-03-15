@@ -2,7 +2,6 @@ import { describe, it, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, existsSync, unlinkSync } from "fs";
 import { resolve } from "path";
-import "dotenv/config";
 import { saveMarkdown, saveMeta, loadMeta, loadMarkdownPath } from "../../src/utils/cache.js";
 import type { WebMeta } from "../../src/types.js";
 

@@ -27,19 +27,19 @@ URL → web_content ────────────────────
 
 ```bash
 npm install
-cp .env.example .env
-# Edit .env with your APIFY_TOKEN
 ```
+
+Environment variables are passed via `.mcp.json` (no `.env` file needed).
 
 ## Usage
 
 ```bash
 npm run mcp    # Start MCP server (stdio transport)
-npm test       # Run all tests
+npm test       # Run all tests (set APIFY_TOKEN env for integration test)
 npm run build  # TypeScript compile
 ```
 
-### MCP Configuration
+## MCP Configuration
 
 Add to your `.mcp.json`:
 
@@ -59,6 +59,8 @@ Add to your `.mcp.json`:
 ```
 
 ## Environment Variables
+
+Passed via `.mcp.json` `env` block (not `.env` file):
 
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|

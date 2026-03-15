@@ -2,7 +2,6 @@ import { describe, it, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { unlinkSync } from "fs";
 import { resolve } from "path";
-import "dotenv/config";
 import { webFetching } from "../src/tools/web_fetching.js";
 import { webContent } from "../src/tools/web_content.js";
 import { normUrl } from "../src/utils/misc.js";

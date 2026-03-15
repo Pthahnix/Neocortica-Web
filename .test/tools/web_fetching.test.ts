@@ -2,7 +2,6 @@ import { describe, it, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { unlinkSync } from "fs";
 import { resolve } from "path";
-import "dotenv/config";
 import { webFetching } from "../../src/tools/web_fetching.js";
 import type { WebMeta } from "../../src/types.js";
 import type { ApifyClient } from "../../src/utils/apify.js";
