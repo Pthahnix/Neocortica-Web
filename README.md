@@ -67,4 +67,4 @@ Add to your `.mcp.json`:
 
 ## License
 
-MIT
+Apache-2.0
