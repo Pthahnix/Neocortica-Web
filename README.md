@@ -69,4 +69,4 @@ Passed via `.mcp.json` `env` block (not `.env` file):
 
 ## License
 
-Apache-2.0
+[Apache-2.0 License](LICENSE)
