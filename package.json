@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "mcp": "tsx src/mcp_server.ts",
-    "test": "tsx --test .test/**/*.test.ts",
+    "test": "tsx --test .test/*.test.ts .test/**/*.test.ts",
     "build": "tsc"
   },
   "dependencies": {
