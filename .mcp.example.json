@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "neocortica-web": {
+      "command": "npm",
+      "args": ["run", "mcp"],
+      "env": {
+        "APIFY_TOKEN": "",
+        "NEOCORTICA_CACHE": ".cache"
+      }
+    }
+  }
+}
